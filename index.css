@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .divbody1{
     display: flex;
     flex-wrap: wrap;
@@ -13,4 +14,30 @@
 
 .divbody12{
     display: flex;
+=======
+body {
+    font-family: Helvetica, sans-serif
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerbody{
+    width: 50rem;
+    margin: 5rem auto;
+}
+
+.footerlinks{
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: inherit;
+>>>>>>> main
 }
