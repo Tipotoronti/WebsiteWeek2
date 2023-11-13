@@ -1,8 +1,28 @@
-.img-header{
-    height: 500px;
+header{
+    background-image: url('header-image.jpg');
+    display: grid;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
     width: 100%;
-    border-radius: 5px;
-  }
+    align-content: center;
+    justify-content: center;
+}
+.title{
+    color: aliceblue;
+  font-size:72px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.title p{
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+}
+
   .nav ul{
     margin: 0px;
     display: flex;
