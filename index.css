@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 header{
     background-image: url('header-image.jpg');
     display: grid;
@@ -122,4 +127,19 @@ body {
 .footer a{
     text-decoration: none;
     color: inherit;
+}
+
+
+.sidebar {
+    height: 100%;
+    position: fixed;
+    width: 50px;
+    right: 0;
+    padding-top: 180px;
+    background-color:transparent;
+    }
+    
+    .sidebar *{
+    width: 40px;
+    height: 40px;
 }
