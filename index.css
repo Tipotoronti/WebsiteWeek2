@@ -8,15 +8,20 @@ header{
     display: grid;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 150px;
     width: 100%;
     align-content: center;
     justify-content: center;
 }
 .title{
-    color: aliceblue;
+    color: black;
   font-size:72px;
-  font-family: 'Times New Roman', Times, serif;
+  text-shadow:
+    1px 1px 2px black,
+    0 0 1em rgb(211, 211, 139),
+    0 0 0.2em rgb(211, 211, 139);
+  color: white;
+  
   font-style: italic;
 }
 
@@ -50,21 +55,52 @@ header{
   .nav-list{
     margin: 50px;
   }
+
+h1{
+    display: flex;
+    margin: 100px 0px 0px 0px;
+}
+
+h3{
+    margin: 30px 0px 0px 0px;
+}
+
 .divbody1{
     display: flex;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    width: 50%;
+    margin: 0px 250px 0px 30px;
+    width: 100vh;
     flex-direction: column;
+}
+
+#syrischeküchebody{
+    border-radius: 5px;
+    width: 90%;
+    height: auto;
+}
+
+.bodybutton{
+    background-color: darkkhaki;
+    border: none;
+    color: black;
+    margin: 30px 0px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
 .divbody2{
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    margin: 100px 10px 10px 0px;
+    border-radius: 5px;
 }
 
 .divbody12{
     display: flex;
+    border-radius: 5px;
 }
 
 body {
@@ -99,13 +135,11 @@ body {
     position: fixed;
     width: 50px;
     right: 0;
-    top: 250px;
     padding-top: 180px;
     background-color:transparent;
     }
     
-    .sidebar div {
-    padding: 8px;
-    font-size: 24px;
-    display: block;
+    .sidebar *{
+    width: 40px;
+    height: 40px;
 }
