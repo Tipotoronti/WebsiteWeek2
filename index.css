@@ -1,4 +1,30 @@
-
+.img-header{
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .nav ul{
+    margin: 0px;
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .nav ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  .nav ul li a:hover{
+    color: blue;
+    transition: all 0.3s;
+  }
+  .nav-list{
+    margin: 50px;
+  }
 .divbody1{
     display: flex;
     flex-wrap: wrap;
