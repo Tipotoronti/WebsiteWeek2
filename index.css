@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .divbody1{
     display: flex;
     flex-wrap: wrap;
@@ -14,7 +14,8 @@
 
 .divbody12{
     display: flex;
-=======
+}
+
 body {
     font-family: Helvetica, sans-serif
 }
@@ -39,5 +40,4 @@ body {
 .footer a{
     text-decoration: none;
     color: inherit;
->>>>>>> main
 }
