@@ -1,0 +1,16 @@
+.divbody1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
+}
+
+.divbody2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.divbody12{
+    display: flex;
+}
